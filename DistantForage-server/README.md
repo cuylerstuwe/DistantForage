@@ -1,4 +1,4 @@
-# Setup
+# Server Setup
 
 1. Install [Node](https://nodejs.org/en/) for your system.
 
