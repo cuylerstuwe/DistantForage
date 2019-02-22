@@ -45,7 +45,8 @@ class DistantForage {
             console.error(err);
             return null;
         }
-        return itemResponse.value;
+        if(itemResponse.value === undefined) { return null; }
+        else { return itemResponse.value };
     }
 
     async removeItem(key) {
